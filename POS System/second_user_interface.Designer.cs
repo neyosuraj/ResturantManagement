@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(second_user_interface));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -60,11 +61,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.contentpanel = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Updateitem = new System.Windows.Forms.Label();
@@ -75,11 +72,15 @@
             this.products = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.contentpanel = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.contentpanel.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.contentpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -357,28 +358,6 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Welcome !   ";
             // 
-            // contentpanel
-            // 
-            this.contentpanel.BackColor = System.Drawing.Color.Silver;
-            this.contentpanel.BackgroundImage = global::POS_System.Properties.Resources.backgrounds;
-            this.contentpanel.Controls.Add(this.label3);
-            this.contentpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contentpanel.Location = new System.Drawing.Point(0, 145);
-            this.contentpanel.Name = "contentpanel";
-            this.contentpanel.Size = new System.Drawing.Size(1084, 526);
-            this.contentpanel.TabIndex = 5;
-            this.contentpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.contentpanel_Paint);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(113, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(522, 25);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Manage Your Resturant, manage your product stocks";
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
@@ -401,24 +380,6 @@
             this.panel4.Size = new System.Drawing.Size(1084, 74);
             this.panel4.TabIndex = 3;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::POS_System.Properties.Resources.icon_ios7_arrow_right_128;
-            this.pictureBox2.Location = new System.Drawing.Point(764, 9);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(24, 55);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::POS_System.Properties.Resources.icon_ios7_arrow_right_128;
-            this.pictureBox1.Location = new System.Drawing.Point(127, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(24, 55);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label11
             // 
@@ -575,6 +536,45 @@
             this.label12.MouseLeave += new System.EventHandler(this.label12_MouseLeave);
             this.label12.MouseHover += new System.EventHandler(this.label12_MouseHover);
             // 
+            // contentpanel
+            // 
+            this.contentpanel.BackColor = System.Drawing.Color.White;
+            this.contentpanel.Controls.Add(this.label3);
+            this.contentpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.contentpanel.Location = new System.Drawing.Point(0, 145);
+            this.contentpanel.Name = "contentpanel";
+            this.contentpanel.Size = new System.Drawing.Size(1084, 526);
+            this.contentpanel.TabIndex = 5;
+            this.contentpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.contentpanel_Paint);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(113, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(522, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Manage Your Resturant, manage your product stocks";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::POS_System.Properties.Resources.icon_ios7_arrow_right_128;
+            this.pictureBox2.Location = new System.Drawing.Point(764, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(24, 55);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::POS_System.Properties.Resources.icon_ios7_arrow_right_128;
+            this.pictureBox1.Location = new System.Drawing.Point(127, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 55);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // second_user_interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -587,11 +587,12 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
             this.Name = "second_user_interface";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "second_user_interface";
+            this.Text = "Point Of Sale Management";
             this.Load += new System.EventHandler(this.second_user_interface_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -599,10 +600,10 @@
             this.menuStrip1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.contentpanel.ResumeLayout(false);
-            this.contentpanel.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.contentpanel.ResumeLayout(false);
+            this.contentpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

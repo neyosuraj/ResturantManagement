@@ -107,7 +107,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UserControl_view_damage";
-            this.Size = new System.Drawing.Size(715, 439);
+            this.Size = new System.Drawing.Size(673, 439);
             this.Load += new System.EventHandler(this.UserControl_view_damage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

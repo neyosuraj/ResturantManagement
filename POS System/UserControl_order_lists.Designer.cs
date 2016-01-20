@@ -47,7 +47,7 @@
             // 
             this.btnprint.Location = new System.Drawing.Point(38, 430);
             this.btnprint.Name = "btnprint";
-            this.btnprint.Size = new System.Drawing.Size(101, 34);
+            this.btnprint.Size = new System.Drawing.Size(146, 34);
             this.btnprint.TabIndex = 77;
             this.btnprint.Text = "Print";
             this.btnprint.UseVisualStyleBackColor = true;
@@ -78,9 +78,9 @@
             // btnsearch
             // 
             this.btnsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsearch.Location = new System.Drawing.Point(382, 86);
+            this.btnsearch.Location = new System.Drawing.Point(358, 86);
             this.btnsearch.Name = "btnsearch";
-            this.btnsearch.Size = new System.Drawing.Size(75, 36);
+            this.btnsearch.Size = new System.Drawing.Size(99, 36);
             this.btnsearch.TabIndex = 74;
             this.btnsearch.Text = "Search";
             this.btnsearch.UseVisualStyleBackColor = true;

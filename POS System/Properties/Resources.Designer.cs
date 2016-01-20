@@ -73,6 +73,26 @@ namespace POS_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add182 {
+            get {
+                object obj = ResourceManager.GetObject("add182", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add182_1_ {
+            get {
+                object obj = ResourceManager.GetObject("add182(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgrounds {
             get {
                 object obj = ResourceManager.GetObject("backgrounds", resourceCulture);
@@ -103,9 +123,29 @@ namespace POS_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cross108 {
+            get {
+                object obj = ResourceManager.GetObject("cross108", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_ios7_arrow_right_128 {
             get {
                 object obj = ResourceManager.GetObject("icon-ios7-arrow-right-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap key206_1_ {
+            get {
+                object obj = ResourceManager.GetObject("key206(1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

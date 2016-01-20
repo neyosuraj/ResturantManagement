@@ -52,7 +52,7 @@
             // btnpriceupdate
             // 
             this.btnpriceupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnpriceupdate.Location = new System.Drawing.Point(32, 360);
+            this.btnpriceupdate.Location = new System.Drawing.Point(774, 166);
             this.btnpriceupdate.Name = "btnpriceupdate";
             this.btnpriceupdate.Size = new System.Drawing.Size(183, 37);
             this.btnpriceupdate.TabIndex = 25;
@@ -62,7 +62,7 @@
             // 
             // txtnewprice
             // 
-            this.txtnewprice.Location = new System.Drawing.Point(32, 334);
+            this.txtnewprice.Location = new System.Drawing.Point(774, 140);
             this.txtnewprice.Name = "txtnewprice";
             this.txtnewprice.Size = new System.Drawing.Size(183, 20);
             this.txtnewprice.TabIndex = 24;
@@ -70,7 +70,7 @@
             // cboproduct
             // 
             this.cboproduct.FormattingEnabled = true;
-            this.cboproduct.Location = new System.Drawing.Point(32, 290);
+            this.cboproduct.Location = new System.Drawing.Point(774, 96);
             this.cboproduct.Name = "cboproduct";
             this.cboproduct.Size = new System.Drawing.Size(183, 21);
             this.cboproduct.TabIndex = 23;
@@ -80,7 +80,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(31, 317);
+            this.label7.Location = new System.Drawing.Point(821, 120);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(71, 17);
             this.label7.TabIndex = 29;
@@ -90,7 +90,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(30, 268);
+            this.label6.Location = new System.Drawing.Point(821, 76);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 17);
             this.label6.TabIndex = 28;
@@ -100,7 +100,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(46, 27);
+            this.label5.Location = new System.Drawing.Point(54, 47);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 20);
             this.label5.TabIndex = 27;
@@ -110,7 +110,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(54, 241);
+            this.label4.Location = new System.Drawing.Point(796, 47);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 20);
             this.label4.TabIndex = 26;
@@ -119,9 +119,9 @@
             // btndelete
             // 
             this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(146, 202);
+            this.btndelete.Location = new System.Drawing.Point(31, 277);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(70, 36);
+            this.btndelete.Size = new System.Drawing.Size(183, 32);
             this.btndelete.TabIndex = 21;
             this.btndelete.Text = "Delete Product";
             this.btndelete.UseVisualStyleBackColor = true;
@@ -130,21 +130,21 @@
             // cbocategory
             // 
             this.cbocategory.FormattingEnabled = true;
-            this.cbocategory.Location = new System.Drawing.Point(33, 78);
+            this.cbocategory.Location = new System.Drawing.Point(31, 111);
             this.cbocategory.Name = "cbocategory";
             this.cbocategory.Size = new System.Drawing.Size(183, 21);
             this.cbocategory.TabIndex = 16;
             // 
             // txtprice
             // 
-            this.txtprice.Location = new System.Drawing.Point(33, 174);
+            this.txtprice.Location = new System.Drawing.Point(31, 207);
             this.txtprice.Name = "txtprice";
             this.txtprice.Size = new System.Drawing.Size(183, 20);
             this.txtprice.TabIndex = 19;
             // 
             // txtproduct
             // 
-            this.txtproduct.Location = new System.Drawing.Point(33, 125);
+            this.txtproduct.Location = new System.Drawing.Point(31, 158);
             this.txtproduct.Name = "txtproduct";
             this.txtproduct.Size = new System.Drawing.Size(183, 20);
             this.txtproduct.TabIndex = 17;
@@ -153,7 +153,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 153);
+            this.label3.Location = new System.Drawing.Point(93, 186);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 17);
             this.label3.TabIndex = 22;
@@ -162,9 +162,9 @@
             // bttnadd
             // 
             this.bttnadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnadd.Location = new System.Drawing.Point(33, 202);
+            this.bttnadd.Location = new System.Drawing.Point(31, 235);
             this.bttnadd.Name = "bttnadd";
-            this.bttnadd.Size = new System.Drawing.Size(107, 36);
+            this.bttnadd.Size = new System.Drawing.Size(183, 36);
             this.bttnadd.TabIndex = 20;
             this.bttnadd.Text = "Product Add";
             this.bttnadd.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 107);
+            this.label2.Location = new System.Drawing.Point(93, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 17);
             this.label2.TabIndex = 18;
@@ -184,7 +184,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 58);
+            this.label1.Location = new System.Drawing.Point(85, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 17);
             this.label1.TabIndex = 15;
@@ -195,7 +195,7 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(273, 90);
+            this.dataGridView1.Location = new System.Drawing.Point(236, 45);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(511, 264);
@@ -206,7 +206,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(442, 61);
+            this.label8.Location = new System.Drawing.Point(415, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(125, 24);
             this.label8.TabIndex = 31;
@@ -248,7 +248,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "UserControl_product_add";
-            this.Size = new System.Drawing.Size(818, 426);
+            this.Size = new System.Drawing.Size(983, 336);
             this.Load += new System.EventHandler(this.UserControl_product_add_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -40,3 +40,10 @@ C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final serve
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\BLLS\obj\Debug\BLLS.csprojResolveAssemblyReference.cache
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\BLLS\obj\Debug\BLLS.dll
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\BLLS\obj\Debug\BLLS.pdb
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\bin\Debug\BLLS.dll
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\bin\Debug\BLLS.pdb
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\bin\Debug\DOA.dll
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\bin\Debug\DOA.pdb
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\obj\Debug\BLLS.csprojResolveAssemblyReference.cache
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\obj\Debug\BLLS.dll
+C:\Users\SJNeyos\Desktop\Resturants\BLLS\obj\Debug\BLLS.pdb

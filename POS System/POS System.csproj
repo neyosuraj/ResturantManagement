@@ -394,6 +394,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>pos.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\cross108.png" />
+    <None Include="Resources\add182%281%29.png" />
+    <None Include="Resources\add182.png" />
+    <None Include="Resources\key206%281%29.png" />
     <None Include="Resources\backgrounds - Copy.jpg" />
     <None Include="Resources\backgrounds.jpg" />
     <None Include="Resources\blue_wave-1680x1050.jpg" />

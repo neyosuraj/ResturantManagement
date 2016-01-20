@@ -60,21 +60,21 @@
             "Choose One",
             "Admin\t",
             "User"});
-            this.cbousertype.Location = new System.Drawing.Point(210, 174);
+            this.cbousertype.Location = new System.Drawing.Point(210, 169);
             this.cbousertype.Name = "cbousertype";
             this.cbousertype.Size = new System.Drawing.Size(173, 21);
             this.cbousertype.TabIndex = 44;
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(210, 145);
+            this.txtemail.Location = new System.Drawing.Point(210, 139);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(173, 20);
             this.txtemail.TabIndex = 43;
             // 
             // txtrepassword
             // 
-            this.txtrepassword.Location = new System.Drawing.Point(210, 77);
+            this.txtrepassword.Location = new System.Drawing.Point(210, 79);
             this.txtrepassword.Name = "txtrepassword";
             this.txtrepassword.PasswordChar = '*';
             this.txtrepassword.Size = new System.Drawing.Size(173, 20);
@@ -82,7 +82,7 @@
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(210, 106);
+            this.txtpassword.Location = new System.Drawing.Point(210, 109);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '*';
             this.txtpassword.Size = new System.Drawing.Size(173, 20);
@@ -90,7 +90,7 @@
             // 
             // txtusername
             // 
-            this.txtusername.Location = new System.Drawing.Point(210, 45);
+            this.txtusername.Location = new System.Drawing.Point(210, 49);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(173, 20);
             this.txtusername.TabIndex = 40;
@@ -98,9 +98,9 @@
             // btnsignup
             // 
             this.btnsignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsignup.Location = new System.Drawing.Point(240, 212);
+            this.btnsignup.Location = new System.Drawing.Point(210, 196);
             this.btnsignup.Name = "btnsignup";
-            this.btnsignup.Size = new System.Drawing.Size(75, 23);
+            this.btnsignup.Size = new System.Drawing.Size(173, 30);
             this.btnsignup.TabIndex = 39;
             this.btnsignup.Text = "Sign Up";
             this.btnsignup.UseVisualStyleBackColor = true;
@@ -110,7 +110,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(104, 174);
+            this.label5.Location = new System.Drawing.Point(104, 169);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 17);
             this.label5.TabIndex = 38;
@@ -120,7 +120,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(104, 145);
+            this.label4.Location = new System.Drawing.Point(104, 139);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 17);
             this.label4.TabIndex = 37;
@@ -174,7 +174,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "SingUp_Form";
-            this.Text = "SingUp_Form";
+            this.Text = "Singup Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 

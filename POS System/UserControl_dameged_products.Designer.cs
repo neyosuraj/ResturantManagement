@@ -42,7 +42,7 @@
             this.lblmsg.AutoSize = true;
             this.lblmsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmsg.ForeColor = System.Drawing.Color.Red;
-            this.lblmsg.Location = new System.Drawing.Point(310, 127);
+            this.lblmsg.Location = new System.Drawing.Point(226, 132);
             this.lblmsg.Name = "lblmsg";
             this.lblmsg.Size = new System.Drawing.Size(12, 17);
             this.lblmsg.TabIndex = 58;
@@ -51,7 +51,7 @@
             // btnsearch
             // 
             this.btnsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsearch.Location = new System.Drawing.Point(457, 95);
+            this.btnsearch.Location = new System.Drawing.Point(373, 100);
             this.btnsearch.Name = "btnsearch";
             this.btnsearch.Size = new System.Drawing.Size(88, 40);
             this.btnsearch.TabIndex = 57;
@@ -61,7 +61,7 @@
             // 
             // txtproduct
             // 
-            this.txtproduct.Location = new System.Drawing.Point(284, 105);
+            this.txtproduct.Location = new System.Drawing.Point(200, 110);
             this.txtproduct.Name = "txtproduct";
             this.txtproduct.Size = new System.Drawing.Size(156, 20);
             this.txtproduct.TabIndex = 56;
@@ -70,7 +70,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(146, 107);
+            this.label8.Location = new System.Drawing.Point(62, 112);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(126, 17);
             this.label8.TabIndex = 55;
@@ -79,7 +79,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(102, 156);
+            this.dataGridView1.Location = new System.Drawing.Point(18, 161);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(559, 281);
             this.dataGridView1.TabIndex = 45;
@@ -90,7 +90,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(269, 40);
+            this.label1.Location = new System.Drawing.Point(185, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(171, 24);
             this.label1.TabIndex = 59;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UserControl_dameged_products";
-            this.Size = new System.Drawing.Size(759, 491);
+            this.Size = new System.Drawing.Size(598, 484);
             this.Load += new System.EventHandler(this.UserControl_dameged_products_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

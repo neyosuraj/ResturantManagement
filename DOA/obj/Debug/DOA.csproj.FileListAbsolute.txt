@@ -27,3 +27,8 @@ C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final serve
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\DOA\obj\Debug\DOA.csprojResolveAssemblyReference.cache
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\DOA\obj\Debug\DOA.dll
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\DOA\obj\Debug\DOA.pdb
+C:\Users\SJNeyos\Desktop\Resturants\DOA\bin\Debug\DOA.dll
+C:\Users\SJNeyos\Desktop\Resturants\DOA\bin\Debug\DOA.pdb
+C:\Users\SJNeyos\Desktop\Resturants\DOA\obj\Debug\DOA.csprojResolveAssemblyReference.cache
+C:\Users\SJNeyos\Desktop\Resturants\DOA\obj\Debug\DOA.dll
+C:\Users\SJNeyos\Desktop\Resturants\DOA\obj\Debug\DOA.pdb

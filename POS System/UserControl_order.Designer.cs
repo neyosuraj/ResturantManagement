@@ -34,7 +34,6 @@
             this.txttotal = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.msg = new System.Windows.Forms.Label();
-            this.btnorder = new System.Windows.Forms.Button();
             this.txtcost = new System.Windows.Forms.TextBox();
             this.txtquantity = new System.Windows.Forms.TextBox();
             this.txttblno = new System.Windows.Forms.TextBox();
@@ -56,11 +55,12 @@
             this.label9 = new System.Windows.Forms.Label();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.label10 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.calupdate = new System.Windows.Forms.DataGridViewImageColumn();
             this.caldelete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.label4 = new System.Windows.Forms.Label();
+            this.btnorder = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,17 +111,6 @@
             this.msg.TabIndex = 122;
             this.msg.Text = ".";
             this.msg.Click += new System.EventHandler(this.msg_Click);
-            // 
-            // btnorder
-            // 
-            this.btnorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnorder.Location = new System.Drawing.Point(117, 275);
-            this.btnorder.Name = "btnorder";
-            this.btnorder.Size = new System.Drawing.Size(75, 34);
-            this.btnorder.TabIndex = 121;
-            this.btnorder.Text = "Order";
-            this.btnorder.UseVisualStyleBackColor = true;
-            this.btnorder.Click += new System.EventHandler(this.btnorder_Click);
             // 
             // txtcost
             // 
@@ -303,6 +292,16 @@
             this.label10.TabIndex = 132;
             this.label10.Text = "Orders";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(60, 184);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 17);
+            this.label4.TabIndex = 111;
+            this.label4.Text = "Item";
+            // 
             // dataGridViewImageColumn1
             // 
             this.dataGridViewImageColumn1.HeaderText = "U";
@@ -339,15 +338,18 @@
             this.caldelete.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.caldelete.Width = 30;
             // 
-            // label4
+            // btnorder
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(60, 184);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 17);
-            this.label4.TabIndex = 111;
-            this.label4.Text = "Item";
+            this.btnorder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnorder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnorder.Location = new System.Drawing.Point(108, 275);
+            this.btnorder.Name = "btnorder";
+            this.btnorder.Size = new System.Drawing.Size(84, 34);
+            this.btnorder.TabIndex = 121;
+            this.btnorder.Text = "Order";
+            this.btnorder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnorder.UseVisualStyleBackColor = true;
+            this.btnorder.Click += new System.EventHandler(this.btnorder_Click);
             // 
             // UserControl_order
             // 
@@ -377,7 +379,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "UserControl_order";
-            this.Size = new System.Drawing.Size(764, 446);
+            this.Size = new System.Drawing.Size(764, 416);
             this.Load += new System.EventHandler(this.UserControl_order_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

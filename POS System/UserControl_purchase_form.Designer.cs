@@ -161,9 +161,9 @@
             // btnremove
             // 
             this.btnremove.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnremove.Location = new System.Drawing.Point(410, 259);
+            this.btnremove.Location = new System.Drawing.Point(427, 255);
             this.btnremove.Name = "btnremove";
-            this.btnremove.Size = new System.Drawing.Size(86, 32);
+            this.btnremove.Size = new System.Drawing.Size(78, 32);
             this.btnremove.TabIndex = 71;
             this.btnremove.Text = "Remove";
             this.btnremove.UseVisualStyleBackColor = true;
@@ -213,9 +213,9 @@
             // 
             // btnsave
             // 
-            this.btnsave.Location = new System.Drawing.Point(49, 478);
+            this.btnsave.Location = new System.Drawing.Point(36, 498);
             this.btnsave.Name = "btnsave";
-            this.btnsave.Size = new System.Drawing.Size(81, 27);
+            this.btnsave.Size = new System.Drawing.Size(140, 38);
             this.btnsave.TabIndex = 72;
             this.btnsave.Text = "Save";
             this.btnsave.UseVisualStyleBackColor = true;
@@ -248,7 +248,7 @@
             // 
             this.Total.AutoSize = true;
             this.Total.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Total.Location = new System.Drawing.Point(48, 261);
+            this.Total.Location = new System.Drawing.Point(108, 260);
             this.Total.Name = "Total";
             this.Total.Size = new System.Drawing.Size(40, 17);
             this.Total.TabIndex = 83;
@@ -256,9 +256,9 @@
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(131, 261);
+            this.txttotal.Location = new System.Drawing.Point(163, 260);
             this.txttotal.Name = "txttotal";
-            this.txttotal.Size = new System.Drawing.Size(142, 20);
+            this.txttotal.Size = new System.Drawing.Size(161, 20);
             this.txttotal.TabIndex = 82;
             // 
             // dataGridView1
@@ -316,9 +316,9 @@
             // btnadd
             // 
             this.btnadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnadd.Location = new System.Drawing.Point(300, 259);
+            this.btnadd.Location = new System.Drawing.Point(343, 255);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(94, 32);
+            this.btnadd.Size = new System.Drawing.Size(84, 32);
             this.btnadd.TabIndex = 70;
             this.btnadd.Text = "Add";
             this.btnadd.UseVisualStyleBackColor = true;
@@ -474,7 +474,7 @@
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.txtgrandtotal);
-            this.panel1.Location = new System.Drawing.Point(547, 261);
+            this.panel1.Location = new System.Drawing.Point(532, 270);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(324, 58);
             this.panel1.TabIndex = 90;
@@ -637,7 +637,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Name = "UserControl_purchase_form";
-            this.Size = new System.Drawing.Size(975, 516);
+            this.Size = new System.Drawing.Size(897, 541);
             this.Load += new System.EventHandler(this.UserControl_purchase_form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

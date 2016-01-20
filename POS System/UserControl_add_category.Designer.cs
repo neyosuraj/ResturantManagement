@@ -28,29 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btndelete = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cbodeletecategory = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btncategoryadd = new System.Windows.Forms.Button();
             this.txtaddcategory = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btncategoryadd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btndelete
-            // 
-            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(167, 250);
-            this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(143, 34);
-            this.btndelete.TabIndex = 15;
-            this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
-            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // label4
             // 
@@ -90,17 +79,6 @@
             this.label2.Size = new System.Drawing.Size(151, 17);
             this.label2.TabIndex = 11;
             this.label2.Text = "Delete Category Name";
-            // 
-            // btncategoryadd
-            // 
-            this.btncategoryadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncategoryadd.Location = new System.Drawing.Point(167, 121);
-            this.btncategoryadd.Name = "btncategoryadd";
-            this.btncategoryadd.Size = new System.Drawing.Size(143, 33);
-            this.btncategoryadd.TabIndex = 10;
-            this.btncategoryadd.Text = "Add";
-            this.btncategoryadd.UseVisualStyleBackColor = true;
-            this.btncategoryadd.Click += new System.EventHandler(this.btncategoryadd_Click);
             // 
             // txtaddcategory
             // 
@@ -143,10 +121,41 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "Updated Categories";
             // 
+            // btndelete
+            // 
+            this.btndelete.BackColor = System.Drawing.Color.White;
+            this.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.Image = global::POS_System.Properties.Resources.cross108;
+            this.btndelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndelete.Location = new System.Drawing.Point(167, 239);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(143, 45);
+            this.btndelete.TabIndex = 15;
+            this.btndelete.Text = "Delete";
+            this.btndelete.UseVisualStyleBackColor = false;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
+            // 
+            // btncategoryadd
+            // 
+            this.btncategoryadd.BackColor = System.Drawing.Color.White;
+            this.btncategoryadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncategoryadd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncategoryadd.Image = global::POS_System.Properties.Resources.add182_1_;
+            this.btncategoryadd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncategoryadd.Location = new System.Drawing.Point(167, 110);
+            this.btncategoryadd.Name = "btncategoryadd";
+            this.btncategoryadd.Size = new System.Drawing.Size(143, 43);
+            this.btncategoryadd.TabIndex = 10;
+            this.btncategoryadd.Text = "Add";
+            this.btncategoryadd.UseVisualStyleBackColor = false;
+            this.btncategoryadd.Click += new System.EventHandler(this.btncategoryadd_Click);
+            // 
             // UserControl_add_category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
@@ -159,7 +168,7 @@
             this.Controls.Add(this.txtaddcategory);
             this.Controls.Add(this.label1);
             this.Name = "UserControl_add_category";
-            this.Size = new System.Drawing.Size(676, 351);
+            this.Size = new System.Drawing.Size(701, 324);
             this.Load += new System.EventHandler(this.UserControl_add_category_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

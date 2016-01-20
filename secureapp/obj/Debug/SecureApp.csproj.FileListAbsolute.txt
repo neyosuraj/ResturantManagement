@@ -38,3 +38,11 @@ C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final serve
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\secureapp\obj\Debug\secureapp.csproj.GenerateResource.Cache
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\secureapp\obj\Debug\SecureApp.dll
 C:\Users\SJNeyos\Desktop\final tested for documentation\POS System 2 final server edited\secureapp\obj\Debug\SecureApp.pdb
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\obj\Debug\secureapp.csprojResolveAssemblyReference.cache
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\obj\Debug\SecureApp.Form1.resources
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\obj\Debug\SecureApp.Properties.Resources.resources
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\obj\Debug\secureapp.csproj.GenerateResource.Cache
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\obj\Debug\SecureApp.dll
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\obj\Debug\SecureApp.pdb
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\bin\Debug\SecureApp.dll
+C:\Users\SJNeyos\Desktop\Resturants\secureapp\bin\Debug\SecureApp.pdb
