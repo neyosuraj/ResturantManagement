@@ -21,6 +21,7 @@ namespace POS_System
         private void ViewStock_Load(object sender, EventArgs e)
         {
             viewstock();
+            
         }
         public void viewstock()
         {
